@@ -1,0 +1,33 @@
+﻿05_07 Partition by Hash Example
+
+
+
+
+create table customer_interaction
+ (ci_id int not null,
+  ci_url text not null,
+  time_at_url int not null,
+  click_sequence int not null)
+partition by hash(ci_id);
+
+
+
+
+create table customer_interactions_1 partition of customer_interaction
+   for values with (modulus 5 remainder 0);
+
+
+create table customer_interactions_2 partition of customer_interaction
+   for values with (modulus 5 remainder 1);
+
+
+create table customer_interactions_3 partition of customer_interaction
+   for values with (modulus 5 remainder 2);
+
+
+create table customer_interactions_4 partition of customer_interaction
+   for values with (modulus 5 remainder 3);
+
+
+create table customer_interactions_5 partition of customer_interaction
+   for values with (modulus 5 remainder 4);
