@@ -1,0 +1,17 @@
+﻿02_02 Explain and Analyze
+
+
+
+
+
+
+SELECT * from staff
+
+
+EXPLAIN SELECT * FROM STAFF
+
+
+EXPLAIN ANALYZE select * from staff
+
+
+EXPLAIN ANALYZE select last_name from staff
