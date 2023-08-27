@@ -1,0 +1,17 @@
+﻿02_03  Example Plan: Selecting with a WHERE Clause
+
+
+
+
+
+
+SELECT * FROM staff WHERE salary > 75000
+
+
+EXPLAIN SELECT * FROM staff where salary > 75000
+
+
+EXPLAIN SELECT * FROM staff
+
+
+EXPLAIN ANALYZE SELECT * FROM staff where salary > 75000
