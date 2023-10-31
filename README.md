@@ -35,6 +35,6 @@ Dan Sullivan
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/dan-sullivan).
 
 [lil-course-url]: https://www.linkedin.com/learning/advanced-sql-for-query-tuning-and-performance-optimization-22891253?dApp=59033956&leis=LAA
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQFUKd9D1geeCA/learning-public-crop_288_512/0/1696622459826?e=2147483647&v=beta&t=WnMnefh6H8GWDFd5PmBuS4yf718Lo1tdlS_mkICXh98
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQHhgQSU6L_R7w/learning-public-crop_675_1200/0/1697652769241?e=2147483647&v=beta&t=K_grEUNxvoxg2011Gu7QVV3AyEFM3PxXr1r7DQUoSbc
 
 
